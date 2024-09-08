@@ -1,5 +1,5 @@
 body {
-    width: 920px;
+    width: 100vh;
     height: 1120px;
     background: url(../imagenes/img1.png) no-repeat;
     padding: 0;
@@ -9,7 +9,7 @@ body {
 .logoDePagina{
     display: flex;
     flex-direction: column;
-    gap: 20px;
+    gap: 16px;
     margin-top: 25px;
 }
 .logoDePagina img {
@@ -19,8 +19,10 @@ padding-left: 60px;
 }
 .textLogoPagina{
    text-align: right;
-   margin: -55px 660px 0px 0px;
+   margin: 0 685px 0 0;
    font-size: 22px;
+   position: relative;
+   top: -45px;
 }
 .NavDatosContacto{
     text-align: right;
@@ -28,16 +30,19 @@ padding-left: 60px;
     display: flex;
     font-size: 14px;
     gap: 16px;
-    margin: -60px 680px 0px 400px;
+    margin: 0 680px 0 450px;
     flex-direction: row-reverse;
-    padding-left: 230px;
+    position: relative;
+    top: -100px;
+    left: 300px;
 }
 .NavDatosContacto img{
     display: flex;
     margin-top: 15px;
     width: 35px;
     height: 35px;
-    margin-right: -2px;
+    position: relative;
+    right: -2px;
 }
 .menuNavContacto{
 margin-top: 20px;
@@ -46,10 +51,11 @@ margin-top: 20px;
 display: flex;
 list-style-type: none;
 font-size: 14px;
-gap: 16px;
+gap: 30px;
 color: white;
-margin: -45px 0px 0px 800px;
-position: absolute;
+position: relative;
+top: -145px;
+left: 980px;
 }
 .contenedorNavPrincipal{
 margin: 340px 0px 0px 60px;
@@ -79,9 +85,7 @@ font-size: 25px;
     width: 320px;
     height: auto;
     display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
-    margin: 315px 0px 0px 570px;
+    margin: 80px 0 0 570px;
 }
 .cardImagen{
    position: relative;
@@ -105,130 +109,166 @@ font-size: 25px;
     font-size: 30px;
     font-weight: bold;
     text-align: left;
-    margin: -380px 0px 10px 160px;
+    left: 160px;
     min-width: 100vh;
     display: flex;
+    position: relative;
+    top: -340px;
 }
+.contenedorBox1{
+    width: 1920px;
+    height: auto;
+    display: flex;
+    background: url(../imagenes/img20.png) no-repeat;
+    position: relative;
+    top: -100px;
+  }
+  .contenedorBox1 img{
+  width: 340px;
+  height: 550px;
+  position: relative;
+  top: -60px;
+  bottom: 10px;
+  left: 320px;
+  }
 .parrafo2{
     font-size: 20px;
     color: #9fa0a1;
-    text-align: left;
-    margin: 8px 0px 0px 160px;
-    box-sizing:  border-box;
-    position: absolute;
-    max-width: 250px;
-}
-.contenedorBox1{
-  width: 1920px;
-  height: auto;
-  display: flex;
-  background: url(../imagenes/img20.png) no-repeat;
-  margin: 400px 0px 0px 0px;
-}
-.contenedorBox1 img{
-width: 340px;
-height: 550px;
-margin: -60px 0px 10px 455px;
+    position: relative;
+    left: 160px;
+    top: -335px;
+    max-width: 280px;
+    display: flex;
 }
 .contenedorCard2{
 width: 740px;
 height: 522px;
 background: #F6F6F6;
-margin: -556px 0px 0px 790px;
+position: relative;
+top: -705px;
+left: 660px;
 display: flex;
 }
-.textBox1{
-    color: black;
-    margin-top: 40px;
-    padding-left: 300px;
-    display: flex;
-}
-.parrafoBox1{
-    color: black;
-    margin: 150px 0px 10px -460px;
-    display: flex;
-}
 .imagenContenedorBox2{
-   width: 150px;
-   height: 140px; 
-   gap: 5px;
-   display: flex;
-   justify-content: space-between;
-   align-items: flex-start;
-   margin: -270px 0px 0px 850px;
+    width: 150px;
+    height: 140px; 
+    gap: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    position: relative;
+    top: -1060px;
+    left: 710px;
+ }
+.tituloCard2{
+    color: black;
+    font-size: 24px;
+    text-align: center;
+    line-height: 1.2;
+    position: relative;
+    margin-bottom: 20px;
+    left: 260px;
+}
+.parrafoCard2{
+    color: black;
+    font-size: 16px;
+    line-height: 1.5;
+    text-align: justify;
+    position: relative;
+    top: 120px;
+    left: -90px;
 }
 .buttonSecundario{
     width: 50px;
     height: 50px;
     border-radius: 50px;
     background-color: #C49D48;
-    gap: 10px;
     padding: 8px 16px;
     border-radius: 50px;
     border: none;
-    margin: -85px 0px 0px 1430px;
-    padding: 0 auto;
+    position: relative;
+    top: -840px;
+    left: 1290px;
     cursor: pointer;
 }
 .textButton{
 color: black;
-text-align: center;
 justify-content: center;
-font-size: 25px;
+font-size: 16px;
 display: flex;
+position: relative;
+top: -785px;
+left: 770px;
 }
 .contenedorBox3{
 color: black;
-margin-top: 300px;
 text-align: center;
 justify-content: center;
-margin-left: 600px;
+position: relative;
+top: -780px;
+left: 530px;
 }
 .imagenContenedorBox3{
-   display: grid;
-   grid-template-columns: repeat(5, 1fr);
-   gap: 10px;
-   margin-top: 60px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    position: relative;
+    gap: 10px;
+    top: -700px;
+    left: 60px;
 }
-.footer{
+.contenedorFooter{
     color: black;
     display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    text-align: left;
-    margin-top: 90px;
-    align-items: flex-start;
-    padding: 20px;
-    gap: 20px
-}
-.columna{
-    flex: 1;
-    max-width: 20%;
-    margin-right: 20px;
-}
-.textLogoPaginafooter{
-color: #C49D48;
-margin: 0 0 0 20px;
-}
-.parrafoLogoPagina{
+    flex-wrap: wrap;
+    width: 110%;
+    justify-content: center;
+    position: relative;
+    top: -600px;
+  }
+  .contenedorFooter p{
+   font-size: 16px;
+   position: relative;
+   top: -45px;
+  }
+  .logoFooter {
+    margin-bottom: 16px;
+  }
+  .textLogoFooter{
+  color: #C49D48;
+  font-size: 20px;
+  position: relative;
+  top: -70px;
+  left: 50px;
+  }
+  .contenedorFooter1 {
+    width: 451px;
+    margin-right: 80px;
     color: black;
 }
-.columna img{
-    max-width: 50px;
-    margin: 5px;
-}
-.columna2{
-color: black;
-margin-top: 10px;
-}
-.columna3{
-color: black;
-margin-top: 10px;
-}
-.columna4{
-color: black;
-margin-bottom: 10px;
-}
-.footer p, .footer sub{
-    margin: 0;
-}
+  .footerColumna1 {
+    margin-right: 80px;
+  }
+  .footerColumna2 {
+    margin-right: 80px;
+  }
+  .footerColumna3 {
+    margin-right: 80px;
+    position: relative;
+    top: -168px;
+left: 700px; 
+ }
+ .footerColumna3 p{
+    position: relative;
+    top: -5px;
+ }
+ .footerColumna3 sub{
+    position: relative;
+    top: -2px;
+ }
+  .siguenos {
+    margin-bottom: 20px;
+    position: relative;
+    right: 150px;
+    top: -20px;
+  }
+  
